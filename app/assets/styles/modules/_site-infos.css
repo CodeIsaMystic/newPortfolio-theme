@@ -1,0 +1,52 @@
+.site-infos {
+  position: relative;
+
+
+  &__belt {
+    width: 100%;
+    position: relative;
+
+    &__unit {
+      max-width: 750px;
+      display: block;
+      margin: 0 auto;
+     /* left: auto;*/
+
+      @mixin atMedium {
+        //display: flex;
+        margin: 0 auto 50px;
+      }
+
+      .unit__content {
+        position: relative;
+        margin: 0 auto;
+        padding-left: 20px;
+        text-align: center;
+        z-index: 1;
+
+        .quote-mark {
+          position: absolute;
+          height: 60px;
+          width: 60px;
+          z-index: -1;
+          opacity: 0.3;
+
+          path {
+            fill: $accent;
+          }
+
+          &--left {
+            top: -7px;
+            left: 27px;
+          }
+
+          &--right {
+            transform: rotate(180deg);
+            bottom: -18px;
+            right: 27px;
+          }
+        }
+      }
+    }
+  }
+}
