@@ -18,6 +18,7 @@ Thumbs.db
 .settings
 .tmproj
 *.esproj
+.vscode
 nbproject
 _notes
 dwsync.xml
