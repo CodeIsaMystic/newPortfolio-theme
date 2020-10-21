@@ -1,5 +1,8 @@
 .thumb {
+
   @mixin clearfix;
+
+
 
   &__unit {
     float: left;
@@ -8,12 +11,7 @@
     overflow: hidden;
     perspective: 300px;
     cursor: pointer;
-
-    background-position: center center no-repeat;
-    background-size: cover;
-
-
-    padding-top: 16%;
+    padding-top: 16%;          
     width: 50%;
     height: 140px;
 
@@ -23,21 +21,14 @@
     }
 
 
-    &--1 { background-image: url('../../assets/images/work/proj-1/thumb.jpg'); }
-
-    &--2 { background-image: url('../../assets/images/work/proj-2/thumb.jpg'); }
-
-    &--3 { background-image: url('../../assets/images/work/proj-3/thumb.jpg'); }
-
-    &--4 { background-image: url('../../assets/images/work/proj-4/thumb.jpg'); }
-
-    &--5 { background-image: url('../../assets/images/work/proj-5/thumb.jpg'); }
-
-    &--6 { background-image: url('../../assets/images/work/proj-6/thumb.jpg'); }
-
-    &--7 { background-image: url('../../assets/images/work/proj-7/thumb.jpg'); }
-
-    &--8 { background-image: url('../../assets/images/work/proj-8/thumb.jpg'); }
+    &--1 { background: url('../../assets/images/work/proj-1/thumb.jpg') center center no-repeat; background-size: cover; }
+    &--2 { background: url('../../assets/images/work/proj-2/thumb.jpg') center center no-repeat; background-size: cover; }
+    &--3 { background: url('../../assets/images/work/proj-3/thumb.jpg') center center no-repeat; background-size: cover; }
+    &--4 { background: url('../../assets/images/work/proj-4/thumb.jpg') center center no-repeat; background-size: cover; }
+    &--5 { background: url('../../assets/images/work/proj-5/thumb.jpg') center center no-repeat; background-size: cover; }
+    &--6 { background: url('../../assets/images/work/proj-6/thumb.jpg') center center no-repeat; background-size: cover; }
+    &--7 { background: url('../../assets/images/work/proj-7/thumb.jpg') center center no-repeat; background-size: cover; }
+    &--8 { background: url('../../assets/images/work/proj-8/thumb.jpg') center center no-repeat; background-size: cover; }
 
 
 
@@ -48,7 +39,7 @@
       left: 0;
       right: 0;
       transform: rotateX(0deg);
-      opacity: 1;
+      opacity: .85;
     }
   }
 
@@ -58,7 +49,7 @@
     left: 0;
     right: 0;
     height: 100%;
-    background-color: #c99065e3;
+    background-color: $accent;
     text-align: center;
     transition: .75s;
     display: flex;
@@ -73,7 +64,6 @@
       padding: 15px;
 
       color: #fff;
-      text-transform: uppercase;
       font-weight: 300;
       font-size: 24px;
       line-height: 1.2;

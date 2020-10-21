@@ -8,7 +8,7 @@
       height: 100px;
       background-color: $bgColor;
       border-radius: 50%;
-      margin-top: 15px;
+      margin-top: 10px;
 
       &--profile {
         width: 200px;
@@ -18,13 +18,22 @@
   }
 
   &__description {
-    max-width: 620px;
+    max-width: 950px;
     padding: 0 15px;
     margin: 0 auto;
-    text-align: center;
 
     @mixin atSmall {
       margin: 50px auto 0;
+    }
+
+    .desc-quote {
+      text-align: center;
+      font-family: Canela;
+      word-spacing: 3px;
+      letter-spacing: -1px;
+      color: $accent;
+      margin-top: 30px;
+      text-decoration: underline;
     }
   }
 }

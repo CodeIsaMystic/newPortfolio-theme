@@ -19,4 +19,7 @@
 @import "modules/_site-work";
 @import "modules/_thumb";
 @import "modules/_projects-page";
+@import "modules/_site-quote";
 @import "modules/_site-infos";
+
+/*@import "modules/_site-contact";*/

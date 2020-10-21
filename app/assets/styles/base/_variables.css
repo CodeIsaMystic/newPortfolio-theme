@@ -1,16 +1,40 @@
 /**********************
         colors
 **********************/
+
+
+
 $documentBackgroundColor: #fff;
 $bgColor: #e5eaee;
 
-
-$headlineColor: #333;
 $textColor: #666;
-$linkColor: #21a1e1;
-$blueColor: #A5ABC5;
+
+$grayColor: #333;
+
 
 $accentLight: #e1c184;
 $accent:#c99065;
 
+
+
+
+
+
+
+
+
+
+
+
+/**********************
+        extra
+**********************/
+
+$grayLightColor: #999;
+
+
+
+
+$blueColor: #A5ABC5;
 $selectionColor: rgb(255, 255, 158);
+$linkColor: #21a1e1;

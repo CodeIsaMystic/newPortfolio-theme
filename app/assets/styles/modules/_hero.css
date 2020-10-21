@@ -1,16 +1,27 @@
 .hero {
   padding-top: 70px;
+
   @mixin clearfix;
 
+
   @mixin atSmall {
-    padding-top: 135px;
+    padding-top: 200px;
   }
 
+  
+  @mixin forLandscapeLg {
+    padding-top: 150px;
+  }
+
+  @mixin forLandscapeSm {
+    padding-top: 55px;
+  }
 
   &__title {
     text-align: center;
     font-size: 55px;
     font-weight: 700;
+    font-family: Canela, sans-serif;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.02em;
@@ -21,11 +32,15 @@
       font-size: 72px;
       letter-spacing: 0.04em;
     }
+    @mixin forLandscapeSm {  
+      font-size: 55px;
+    }
 
     & span {
       display: inline-block;
-      padding: 0.2em 0.5em;
-      border: 10px solid #fff;
+      padding: 0.4em 0.5em 0.2em;
+      border: 8px solid #fff;
+      box-shadow: 10px 20px 10px 0px rgba(0,0,0,0.66);
 
     }
   }
@@ -34,17 +49,20 @@
     padding-top: 14px;
     text-align: center;
     font-weight: 700;
-    font-size: 26px;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
+    font-size: 30px;
+    letter-spacing: 2px;
     color: #fff;
     line-height: 0.9;
 
     @mixin atSmall {
       padding-top: 0;
-      font-size: 30px;
+      font-size: 35px;
       line-height: 1;
-      letter-spacing: 0.05em;
+     /* letter-spacing: 0.05em;*/
+    }
+
+    @mixin forLandscapeSm {  
+      font-size: 30px;
     }
   }
 }

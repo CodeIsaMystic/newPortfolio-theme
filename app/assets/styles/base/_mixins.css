@@ -1,3 +1,11 @@
+
+
+/*@define-mixin atXSmall {
+  @media (min-width: 550px) {
+    @mixin-content;
+  }
+}*/
+
 @define-mixin atSmall {
   @media (min-width: 768px) {
     @mixin-content;
@@ -15,6 +23,19 @@
     @mixin-content;
   }
 }
+
+@define-mixin forLandscapeSm {
+  @media (max-height: 475px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin forLandscapeLg {
+  @media (max-height: 660px) {
+    @mixin-content;
+  }
+}
+
 
 @define-mixin clearfix {
   &::after {

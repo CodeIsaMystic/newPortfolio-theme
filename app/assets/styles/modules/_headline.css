@@ -4,13 +4,13 @@
   width: 100%;
 
   text-align: center;
-  color: $accentLight;
+  color: $accent;
   text-transform: uppercase;
   line-height: 1;
   font-weight: 700;
   font-size: 16px;
 
   @mixin atMedium {
-    font-size: 19px;
+    font-size: 21px;
   }
 }
