@@ -8,12 +8,10 @@
 *.swp
 *.vi
 *~
-*.sass-cache
 node_modules/
 .tmp/
 
 # OS or Editor folders
-.DS_Store
 Thumbs.db
 .cache
 .project
@@ -21,9 +19,5 @@ Thumbs.db
 .tmproj
 *.esproj
 nbproject
-*.sublime-project
-*.sublime-workspace
-*.komodoproject
-.komodotools
 _notes
 dwsync.xml
