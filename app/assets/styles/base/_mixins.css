@@ -1,10 +1,9 @@
-
-
-/*@define-mixin atXSmall {
+@define-mixin atXSmall {
   @media (min-width: 550px) {
     @mixin-content;
   }
-}*/
+  
+}
 
 @define-mixin atSmall {
   @media (min-width: 768px) {

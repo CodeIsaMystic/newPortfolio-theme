@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background-color: $bgColor;
+}
+
 html,
 body {
   margin: 0;

@@ -1,14 +1,22 @@
 .site-about {
   &__icons {
+    
     max-width: 780px;
     margin: 0 auto;
 
+    
+
     .item>svg {
+      display: none;
       width: 100px;
       height: 100px;
       background-color: $bgColor;
       border-radius: 50%;
       margin-top: 10px;
+
+      @mixin atXSmall {
+      display: block;
+    }
 
       &--profile {
         width: 200px;

@@ -29,8 +29,6 @@
       margin: 50px auto;
       max-width: 700px;
     }
-
-    &__icons {}
   }
 
 
@@ -38,20 +36,24 @@
   /* socialBar--footer */
   &--footer {
     max-width: 140px;
-    margin: 5px auto;
+
+
+    /*margin: 5px auto;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    margin-left: auto;
     padding: 0;
 
-    @mixin atSmall {
-      position: absolute;
-      margin: 0 !important;
-      bottom: 10px;
-      right: 15px;
-    }
 
     &__icons {
 
-      @mixin atSmall {
-        margin-right: 20px;
+      &:not(:last-child) {
+        margin-right: 10px;
+
+        @mixin atSmall {
+          margin-right: 20px;
+        }
       }
     }
   }

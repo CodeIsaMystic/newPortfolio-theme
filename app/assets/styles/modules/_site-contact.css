@@ -1,0 +1,81 @@
+.site-contact {
+  .form {
+    width: 85%;
+    margin: 50px auto 0;
+
+    @mixin clearfix;
+
+    @mixin atXSmall {
+      max-width: 450px;
+    }
+
+    &__info-group {
+        color: $textColor;
+
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 0;
+      outline: none;
+      border-bottom: 2px solid $accent;
+      box-sizing: border-box;
+      background-color: rgba(255, 255, 255, .5);
+
+      &:focus {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+      }
+    }
+
+    input {
+      &:focus {
+        outline: none;
+        border-color: $accentLight;
+      }
+
+      &:focus:invalid {
+        border-bottom: 2px solid $grayColor;
+      }
+    }
+
+    &__label {
+      display: block;
+      margin-left: 10px;
+      margin-top: 7px;
+      font-size: 12px;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.45);
+    }
+
+
+    .submit {
+      text-align: center;
+      margin: 50px 0 0;
+
+      &__input {
+        background-color: $accent;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        width: 40%;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+
+        @mixin atSmall {
+          width: 33%;
+        }
+
+        &:hover {
+          background-color: #fff;
+          color: $accent;
+        }
+      }
+    }
+  }
+}

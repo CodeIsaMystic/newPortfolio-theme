@@ -336,7 +336,7 @@
   
   
   
-    <!--  Contact Section  -->
+    <!--  Infos Section  -->
     <section id="infos" class="site-infos page-section page-section--gray">
       <h3 class="headline">Infos</h3>
   
@@ -402,54 +402,60 @@
   
       <a href="./assets/images/julien-orjollet-resume.pdf" class="site-infos__resume" target="_blank">...my resume...</a>
   
-    </section>  <!-- / end fo infos Section  -->
+    </section>  <!-- / end fo Infos Section  -->
   
   
   
   
-    <!--  Form Section 
-    <section id="contact" class="site-form-contact page-section">
-      <h3 class="headline">Mail</h3> -->
+    <!--  Form Section  -->
+    <section id="contact" class="site-contact page-section">
+      <h3 class="headline">Mail</h3> 
   
-      <!--  form contact
-      <form class="form-contact" action="https://formspree.io/oj.professionnel@gmail.com" method="POST">
+      <!--  form contact -->
+      <form class="form" action="https://formspree.io/oj.professionnel@gmail.com" method="POST">
 
-        <div class="form-contact__info-group">
-          <label><span>Votre nom</span>
-            <input type="text" name="name"></label>
-          <label><span>Votre email</span>
-            <input type="email" name="_replyto"></label>
+        <div class="form__info-group">
+          <input type="text" name="name">
+          <label class="form__label">Votre nom</label>
+        </div>
+          
+        <div class="form__info-group">
+          <input type="email" name="_replyto">
+          <label class="form__label">Votre email</label>
         </div>
   
-        <label><span>Et ici, votre message...</span>
-          <textarea name="message"></textarea>
-        </label>
+        <div class="form__info-group">
+          <textarea name="message" rows="1" cols="33">
+          </textarea>
+          <label class="form__label">Et ici, votre message...</label>
+        </div>
+        
   
         <div class="submit">
-          <input class="submit__input" type="submit" value="Send">
+          <input class="submit__input" type="submit" value="Go">
         </div>
   
-      </form>   --> <!--  / end of form contact  
-    </section> --> <!-- / end of  Form Section  -->
+      </form>    <!--  / end of form contact  -->
+    </section>  <!-- / end of  Form Section  -->
   
   
-    <!--   Footer  Section  
-    <footer class="site-footer">-->
+    <!--   Footer  Section  -->
+    <footer class="site-footer">
   
-      <!--  site footer logo  
+      <!--  site footer logo  -->
       <div class="site-footer__logo">
         <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 50 50">
           <path fill="rgba(255, 255, 255, .4)"
             d="M25 0c-13.807 0-25 11.193-25 25s11.193 25 25 25 25-11.193 25-25-11.193-25-25-25zm-6.435 43l4.599-15.033h-10.164l19.434-20.967-4.599 14.983h10.164l-19.434 21.017z" />
         </svg>
-      </div> --> <!--  /  end of site footer logo  -->
+      </div>  <!--  /  end of site footer logo  -->
   
-      <!--  site footer menu  
+      <!--  site footer menu  -->
       <div class="site-footer__menu">
         <ul class="navBar">
           <li><a href="#about" id="about-link">A propos</a></li>
-          <li><a href="#works" id="works-link">Projet</a></li>
-          <li><a href="#services" id="services-link">Services</a></li>
+          <li><a href="#works" id="works-link">Projets</a></li>
+          <li><a href="#infos" id="services-link">Infos</a></li>
           <li><a href="#contact" id="contact-link">Contact</a></li>
         </ul>
   
@@ -487,10 +493,10 @@
           </span>
         </div>
   
-        <p class="site-footer__menu__copyright">All content Copyright &copy; 2019.</p>
-      </div> --> <!--  / end of site footer menu   
+      </div>  <!--  / end of site footer menu   -->
 
-    </footer> -->
+      <p class="site-footer__copyright">All content Copyright &copy; 2019.</p>
+    </footer> 
     <!--  /  Footer Section  -->
   
     
