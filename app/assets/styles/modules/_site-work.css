@@ -1,0 +1,39 @@
+.site-work {
+  overflow-x: hidden;
+  @mixin clearfix;
+
+
+  &__belt {
+
+    width: 200%;
+    position: relative;
+    left: 0%;
+    transition: all 1.2s;
+  }
+
+  .wrapper {
+    width: 50%;
+    float: left;
+  }
+
+  &__thumb-container {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+    @mixin atMedium {
+      max-width: 960px;
+    }
+  }
+
+  &__projects-container {
+    /* need to control the img view on mobile device*/
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+    @mixin atMedium {
+      max-width: 600px;
+    }
+  }
+}
