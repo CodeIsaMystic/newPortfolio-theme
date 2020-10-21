@@ -14,3 +14,5 @@
 @import "modules/_site-info";
 @import "modules/_headline";
 @import "modules/_align-items";
+@import "modules/_generic-content";
+@import "modules/_skills-block";
