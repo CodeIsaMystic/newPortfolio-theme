@@ -1,3 +1,6 @@
+/********************************
+   Mobile First Media Queries
+********************************/
 @define-mixin atXSmall {
   @media (min-width: 550px) {
     @mixin-content;
@@ -18,11 +21,16 @@
 }
 
 @define-mixin atLarge {
-  @media (min-width: 1010px) {
+  @media (min-width: 1200px) {
     @mixin-content;
   }
 }
 
+
+
+/******************************
+  Media Queries for Landscape
+******************************/
 @define-mixin forLandscapeSm {
   @media (max-height: 475px) {
     @mixin-content;
@@ -36,6 +44,10 @@
 }
 
 
+
+/*************************
+        ClearFix
+*************************/
 @define-mixin clearfix {
   &::after {
     content: "";

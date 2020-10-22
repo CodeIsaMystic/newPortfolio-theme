@@ -10,7 +10,7 @@
     background-color: $bgColor;
   }
 
-  &--no-p-t {
+  &--noPT {
     padding-top: 0;
   }
 }

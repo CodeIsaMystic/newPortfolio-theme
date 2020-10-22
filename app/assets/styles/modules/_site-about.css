@@ -1,4 +1,5 @@
 .site-about {
+  width: 100%;
   &__icons {
     
     max-width: 780px;
@@ -14,7 +15,7 @@
       border-radius: 50%;
       margin-top: 10px;
 
-      @mixin atXSmall {
+      @mixin atSmall {
       display: block;
     }
 
@@ -26,22 +27,29 @@
   }
 
   &__description {
-    max-width: 950px;
-    padding: 0 15px;
+    width: 85%;
+    padding: 0 ;
     margin: 0 auto;
 
     @mixin atSmall {
       margin: 50px auto 0;
+      max-width: 950px;
     }
 
     .desc-quote {
       text-align: center;
       font-family: Canela;
+      font-size: 19px;
       word-spacing: 3px;
       letter-spacing: -1px;
       color: $accent;
       margin-top: 30px;
       text-decoration: underline;
+
+      @mixin atSmall {
+        font-size: 22px;
+      }
     }
+
   }
 }

@@ -1,7 +1,9 @@
 .skills-block {
-  width: 360px;
+  width: 100%;
+  max-width: 360px;
   margin: 0 auto;
   color: #999;
+  
 
   @mixin clearfix;
 
@@ -9,12 +11,17 @@
     width: 770px;
   }
 
-  &__unit {
+  .block-unit {  
     width: 250px;
+    /*width: 80%; */
     height: 30px;
     margin-top: 10px;
     float: left;
 
+    @mixin atXSmall {
+    width: 250px;
+    } 
+    
     @mixin atSmall {
       width: 350px;
     }
@@ -29,12 +36,14 @@
       margin: 0;
       font-size: 0;
       height: 6px;
+      width: 100%;
+
+
     }
 
     span {
-      width: 18px;
       height: 4px;
-
+      width: 18px;
       display: inline-block;
       margin: 0;
       padding: 0;
@@ -68,9 +77,8 @@
   }
 
   &--align-x {
-    padding-left: 90px;
     margin: 0 auto;
-
+    padding-left: 90px;
     @mixin atSmall {
       padding-left: 70px;
     }

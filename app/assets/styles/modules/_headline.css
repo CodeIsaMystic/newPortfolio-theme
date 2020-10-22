@@ -1,16 +1,20 @@
 .headline {
+  width: 100%;
   margin: 0 auto 40px;
   padding: 0;
-  width: 100%;
 
   text-align: center;
-  color: $accent;
-  text-transform: uppercase;
-  line-height: 1;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 19px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: $accent;
+  text-shadow: $shadowLight;
 
-  @mixin atMedium {
-    font-size: 21px;
+  @mixin atSmall {
+    font-size: 23px;
+  }
+  @mixin atLarge {
+    font-size: 26px;
   }
 }

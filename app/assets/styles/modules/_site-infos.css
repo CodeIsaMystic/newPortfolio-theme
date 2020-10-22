@@ -9,16 +9,14 @@
   }
 
   &__bar {
-    margin: 0 auto 30px;
-    width: 200px;
+    margin: 0 auto 55px;
+    width: 180px;
     height: 0px;
     border-top: 2px solid $accent;
 
-    @mixin atSmall {
-      margin: 0 auto 50px;
-      width: 250px;
-      border-top: 4px solid $accent;
-
+    @mixin atMedium {
+      margin: 0 auto 75px;
+      width: 350px;
     }
   }
 
@@ -31,7 +29,7 @@
     transition: all .7s ease-in-out;
 
     @mixin atSmall {
-      font-size: 60px;
+      font-size: 45px;
     }
 
     &:hover {

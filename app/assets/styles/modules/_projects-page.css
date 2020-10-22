@@ -3,17 +3,30 @@
   display: none;
 
 
-  &__return {
+  .page-return {
     width: 40px;
     height: 40px;
     cursor: pointer;
     opacity: 0.5;
-    position: absolute;
-    top: 44px;
-    left: 0;
+   
+    &--top {
+      position: absolute;
+      top: 43px;
+      left: 0; 
+      
+      @mixin atMedium {
+        left: -60px;
+      }
+    }
+  
+    &--bottom {
+      position: absolute;
+      bottom: -4px;
+      left: -58px;
 
-    @mixin atMedium {
-      left: -60px;
+      @mixin atMedium {
+        left: -60px;
+      }
     }
 
 
@@ -29,9 +42,11 @@
     &:hover {
       opacity: 1;
     }
+
   }
 
-  h4 {
+
+  .project-title {
     margin-left: 60px;
     margin-top: 0;
     margin-bottom: 15px;
@@ -47,10 +62,14 @@
     }
 
     img {
-      /*max-width: 100%;*/
+      max-width: 100%;
       margin-bottom: 20px;
+
+      @mixin atSmall {
+        width: 50%
+      }
     }
 
-    p {}
+    /* p {}*/
   }
 }

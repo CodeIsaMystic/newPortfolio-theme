@@ -16,6 +16,11 @@ $accentLight: #e1c184;
 $accent:#c99065;
 
 
+$shadow: 4px 3px 5px rgba(0, 0, 0, .75);
+$shadowLight: 1px 3px 4px rgba(155, 155, 155, .7);
+$shadowBox: 5px 8px 5px 0px rgba(0,0,0, .5);
+
+
 
 
 

@@ -40,7 +40,7 @@
       display: inline-block;
       padding: 0.4em 0.5em 0.2em;
       border: 8px solid #fff;
-      box-shadow: 10px 20px 10px 0px rgba(0,0,0,0.66);
+      box-shadow: $shadowBox;
 
     }
   }
@@ -53,6 +53,7 @@
     letter-spacing: 2px;
     color: #fff;
     line-height: 0.9;
+    text-shadow: $shadow;
 
     @mixin atSmall {
       padding-top: 0;

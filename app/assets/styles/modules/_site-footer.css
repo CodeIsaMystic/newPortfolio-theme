@@ -1,36 +1,25 @@
 .site-footer {
   position: relative;
-  padding: 10px;
+  padding: 10px 10px 5px 10px;
 
 
   background: url("../../assets/images/footer.jpg") center center;
   background-size: cover;
 
   @mixin atSmall {
-    padding: 20px;
+    padding: 20px 20px 5px 20px;
   }
-   @mixin atMedium {
-    padding: 20px;
-  }
-
-  @mixin clearfix;
 
   &__logo {
     width: 50px;
     height: 50px;
-   margin: 0;
-   margin-top: 30px;
-   padding: 0;
-
-
-    @mixin atSmall {
-      margin-top: 0;
-    }
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
 
     & svg {
       width: 100%;
       height: 100%;
-      opacity: 0.9;
     }
   }
 
@@ -39,15 +28,17 @@
     top: 0;
     right: 0;
     margin-top: 30px;
-    margin-right: 20px;
+    margin-right: 15px;
 
+      @mixin atXSmall {
+        margin-right: 20px;
+      }
 
     & ul {
       padding-right: 0;        
       margin-bottom: 20px;
       text-align: right;
     }
-
   }
   &__copyright {
     margin-top: 30px;
