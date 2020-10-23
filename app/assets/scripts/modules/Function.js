@@ -3,7 +3,7 @@ import $ from 'jquery';
 
 
 $(function Functions() {
-  smoothScroll(300);
+  smoothScroll(450);
   workBelt();
   workLoad();
 });
@@ -28,8 +28,8 @@ function workBelt() {
     $('.site-work__belt').css('left', '-100%');
     $('.projects-page').show();
   });
-
-  $('.projects-page__return').click(function () {
+  
+  $('.page-return').click(function () {
     $('.site-work__belt').css('left', '0%');
     $('.projects-page').hide(50);
   });

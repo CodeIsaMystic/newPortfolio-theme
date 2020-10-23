@@ -8,7 +8,7 @@
 
   @mixin atSmall {
     font-size: 18px;
-    line-height: 32px;
+    line-height: 27px;
   }
 
 

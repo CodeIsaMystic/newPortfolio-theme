@@ -2,26 +2,26 @@
    Mobile First Media Queries
 ********************************/
 @define-mixin atXSmall {
-  @media (min-width: 550px) {
+  @media only screen and (min-width: 550px) {
     @mixin-content;
   }
   
 }
 
 @define-mixin atSmall {
-  @media (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     @mixin-content;
   }
 }
 
 @define-mixin atMedium {
-  @media (min-width: 990px) {
+  @media only screen and (min-width: 990px) {
     @mixin-content;
   }
 }
 
 @define-mixin atLarge {
-  @media (min-width: 1200px) {
+  @media only screen and (min-width: 1200px) {
     @mixin-content;
   }
 }
@@ -32,13 +32,13 @@
   Media Queries for Landscape
 ******************************/
 @define-mixin forLandscapeSm {
-  @media (max-height: 475px) {
+  @media only screen and (max-height: 475px) {
     @mixin-content;
   }
 }
 
 @define-mixin forLandscapeLg {
-  @media (max-height: 660px) {
+  @media only screen and (max-height: 660px) {
     @mixin-content;
   }
 }
