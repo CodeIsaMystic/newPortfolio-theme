@@ -7,9 +7,9 @@
     max-width: 100%;
     margin-bottom: 20px;
 
-    @mixin atSmall {
+   /* @mixin atSmall {
       width: 50%
-    }
+    }*/
   }
 
   .arrow {

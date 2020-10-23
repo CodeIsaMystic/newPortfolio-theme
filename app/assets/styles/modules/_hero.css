@@ -1,21 +1,24 @@
 .hero {
-  padding-top: 70px;
+  /*padding-top: 70px;*/
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   @mixin clearfix;
 
-
+/*
   @mixin atSmall {
     padding-top: 200px;
   }
 
-  
   @mixin forLandscapeLg {
     padding-top: 120px;
   }
-
   @mixin forLandscapeSm {
     padding-top: 30px;
-  }
+  }*/
 
   &__title {
     text-align: center;
@@ -48,8 +51,10 @@
     padding-top: 14px;
     text-align: center;
     font-weight: 700;
+    font-family: Canela, sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
+    font-style: italic;
     color: #fff;
     line-height: 0.9;
     text-shadow: $shadow;

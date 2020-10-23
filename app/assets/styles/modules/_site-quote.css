@@ -50,6 +50,7 @@
       font-weight: 900;
       font-style: italic;
       word-spacing: 3px;
+      letter-spacing: 1px;
 
       &::first-letter {
         font-size: 130%;

@@ -69,9 +69,10 @@
     .submit {
       text-align: center;
       margin: 50px 0 0;
+      padding: 0;
 
       &__input {
-      box-shadow: $shadowBox;
+        box-shadow: $shadowBox;
         background-color: $accent;
         color: #fff;
         font-size: 18px;
@@ -87,7 +88,7 @@
         &:hover {
           background-color: #fff;
           color: $accent;
-          border: transparent;
+          //border: transparent;
         }
       }
     }
