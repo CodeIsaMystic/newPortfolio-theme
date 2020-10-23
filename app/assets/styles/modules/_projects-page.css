@@ -6,10 +6,6 @@
   img {
     max-width: 100%;
     margin-bottom: 20px;
-
-   /* @mixin atSmall {
-      width: 50%
-    }*/
   }
 
   .arrow {
@@ -27,26 +23,6 @@
     }
   }
 
-
-/*
-  .project-title {
-    margin-left: 60px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: $accent;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 1.2;
-
-    @mixin atMedium {
-      margin-left: 0;
-
-    }
-
-  }*/
-
-
   .page-return {
     position: absolute;
     top: 13px;
@@ -55,7 +31,7 @@
     
     @mixin atSmall {
       top: 43px;
-      left: -60px;
+      left: -58px;
     }
     
     &:hover {
@@ -76,7 +52,7 @@
 
     @mixin atSmall {
       bottom: -22px;
-      left: -58px;
+      left: -44px;
     }
   }
 }
