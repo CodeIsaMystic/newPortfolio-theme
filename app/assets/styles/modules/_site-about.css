@@ -11,7 +11,8 @@
       display: none;
       width: 100px;
       height: 100px;
-      background-color: $bgColor;
+      background-color: $bgTransparent;
+      box-shadow: $shadowLight;
       border-radius: 50%;
       margin-top: 10px;
 
@@ -39,7 +40,7 @@
     .desc-quote {
       text-align: center;
       font-family: Canela;
-      font-size: 19px;
+      font-size: 20px;
       word-spacing: 3px;
       letter-spacing: -1px;
       color: $accent;
@@ -47,7 +48,11 @@
       text-decoration: underline;
 
       @mixin atSmall {
-        font-size: 22px;
+        font-size: 23px;
+      }
+
+      @mixin atMedium {
+        font-size: 27px;
       }
     }
 

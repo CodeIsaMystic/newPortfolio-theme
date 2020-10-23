@@ -48,8 +48,8 @@ function workLoad() {
     //spinner = '<div class="loader">Loading...</div>',
     newHTML = './work/' + newFolder + '.html';
   $('.project-load').load(newHTML);
-  //  $('.project-load').html(spinner).load(url);
-  $('.project-title').text(newTitle);
+  //$('.project-load').html(spinner).load(url);
+  //$('.project-title').text(newTitle);
   });
 }
 

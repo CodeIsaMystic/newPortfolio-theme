@@ -7,7 +7,7 @@
    /* header */
   &--header {
     max-width: 180px;
-    margin: 10px auto 0;
+    margin: 7px auto 0;
 
     @mixin atSmall {
       position: absolute;
@@ -63,6 +63,7 @@
       transform: scale(1.1);
     }
 
+
     a>svg {
       width: 20px;
       height: 20px;
@@ -73,6 +74,22 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
+
+
+    &--large {
+
+      @mixin atSmall {
+        width: 50px;
+        height: 50px;
+
+        a>svg {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+
 
     &--gold {
       background: $accent;

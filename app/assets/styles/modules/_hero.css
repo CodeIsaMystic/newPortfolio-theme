@@ -10,11 +10,11 @@
 
   
   @mixin forLandscapeLg {
-    padding-top: 150px;
+    padding-top: 120px;
   }
 
   @mixin forLandscapeSm {
-    padding-top: 55px;
+    padding-top: 30px;
   }
 
   &__title {
@@ -23,7 +23,6 @@
     font-weight: 700;
     font-family: Canela, sans-serif;
     color: #fff;
-    text-transform: uppercase;
     letter-spacing: 0.02em;
     margin: 0 auto;
     cursor: pointer;
@@ -59,7 +58,6 @@
       padding-top: 0;
       font-size: 35px;
       line-height: 1;
-     /* letter-spacing: 0.05em;*/
     }
 
     @mixin forLandscapeSm {  

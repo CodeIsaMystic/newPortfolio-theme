@@ -27,13 +27,21 @@
   }
 
   &__projects-container {
-    /* need to control the img view on mobile device*/
-    width: 600px;
+    width: 95%;
+    max-width: 600px;
     margin: 0 auto;
     padding-top: 50px;
 
+    @mixin atXSmall {
+      width: 85%;
+    }
+
+    @mixin atSmall {
+      width: 80%;
+    }
+    
     @mixin atMedium {
-      max-width: 600px;
+      width: 100%;
     }
   }
 }
