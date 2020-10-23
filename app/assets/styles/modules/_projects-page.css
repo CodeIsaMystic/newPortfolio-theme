@@ -2,6 +2,15 @@
   position: relative;
   display: none;
 
+  .anchorP1{ color: #06060D; }
+  .anchorP2{ color: #BB7BDF; }
+  .anchorP3{ color: #28A745; }
+  .anchorP4{ color: #F9930E; }
+  .anchorP5{ color: #F8876E; }
+  .anchorP6{ color: #FE3366; }
+  .anchorP7{ color: #B07722; }
+  .anchorP8{ color: #55C57A; }
+
 
   img {
     max-width: 100%;
