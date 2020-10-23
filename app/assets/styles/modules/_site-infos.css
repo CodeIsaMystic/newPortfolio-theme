@@ -1,6 +1,5 @@
 .site-infos {
   width: 100%;
-  text-align: center;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -11,7 +10,6 @@
 
   & p {
     width: 85%;
-    //text-align: center;
     margin: 0 auto;
 
     &::first-letter {
@@ -36,8 +34,9 @@
   }
 
   &__resume {
-    display: inline-block;
+    display: block;
     text-align: center;
+    margin: 0 auto;
     font-size: 30px;
     font-weight: 100;
     color: $accent;

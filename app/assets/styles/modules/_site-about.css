@@ -1,11 +1,9 @@
 .site-about {
   width: 100%;
+
   &__icons {
-    
     max-width: 780px;
     margin: 0 auto;
-
-    
 
     .item>svg {
       display: none;
