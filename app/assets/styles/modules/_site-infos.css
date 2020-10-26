@@ -7,14 +7,18 @@
     padding-left: 0;
     padding-right: 0;
   }
-
+  
   & p {
     width: 85%;
     margin: 0 auto;
-
+    
+    @mixin atSmall {
+      max-width: 950px;
+    }
     &::first-letter {
       font-size: 130%;
     }
+
   }
 
   &__bar {

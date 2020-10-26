@@ -9,6 +9,10 @@
     &::first-letter {
       font-size: 130%;
     }
+
+    @mixin atSmall {
+      max-width: 950px;
+    }
   }
 
   .form {
