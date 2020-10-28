@@ -1,6 +1,4 @@
 .hero {
-  /*padding-top: 70px;*/
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -8,17 +6,9 @@
 
   @mixin clearfix;
 
-/*
-  @mixin atSmall {
-    padding-top: 200px;
-  }
-
   @mixin forLandscapeLg {
     padding-top: 120px;
   }
-  @mixin forLandscapeSm {
-    padding-top: 30px;
-  }*/
 
   &__title {
     text-align: center;
@@ -30,43 +20,61 @@
     margin: 0 auto;
     cursor: pointer;
 
-    @mixin atSmall {
+    @mixin forLandscapeSm {  
+      font-size: 45px;
+    }
+    @mixin atLarge {
       font-size: 72px;
       letter-spacing: 0.04em;
-    }
-    @mixin forLandscapeSm {  
-      font-size: 55px;
     }
 
     & span {
       display: inline-block;
+      
+      padding: 0.2em 0.4em 0.1em;
+      border: 5px solid #fff;
+      
+      box-shadow: $shadowBox;
+
+      
+    @mixin forLandscapeSm {  
+      padding: 0.2em 0.3em 0;
+      border: 3px solid #fff;
+    }
+
+    
+    @mixin atLarge {
       padding: 0.4em 0.5em 0.2em;
       border: 6px solid #fff;
-      box-shadow: $shadowBox;
+    }
 
     }
   }
 
   &__subtitle {
-    padding-top: 14px;
+    margin: 19px auto;
     text-align: center;
     font-weight: 700;
     font-family: Canela, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     letter-spacing: 2px;
     font-style: italic;
     color: #fff;
-    line-height: 0.9;
+    line-height: 1;
     text-shadow: $shadow;
 
-    @mixin atSmall {
-      padding-top: 0;
-      font-size: 35px;
-      line-height: 1;
-    }
 
     @mixin forLandscapeSm {  
+    margin: 10px auto;
+    }
+    
+    @mixin atSmall {
       font-size: 30px;
+      margin: 23px auto;
+    }
+    
+    @mixin atLarge {
+      font-size: 35px;
     }
   }
 }
