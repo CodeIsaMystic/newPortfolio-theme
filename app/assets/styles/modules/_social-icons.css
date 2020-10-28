@@ -49,9 +49,8 @@
   /*  footer  */
   &--footer {
     max-width: 140px;
-
     padding: 0;
-    margin: 5px 0 5px auto
+    margin-left: auto;
   }
 
 

@@ -49,7 +49,7 @@
 
       @mixin atSmall {
         float: right;
-        padding-top: 30px !important;
+        padding-top: 30px;
         text-align: none;
       }
     }
