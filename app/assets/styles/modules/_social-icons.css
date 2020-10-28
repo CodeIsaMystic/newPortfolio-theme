@@ -22,6 +22,11 @@
         fill: #fff;
       }
     }
+
+    @mixin atLarge {
+      max-width: 160px;
+      right: 35px;
+    }
   }
 
 

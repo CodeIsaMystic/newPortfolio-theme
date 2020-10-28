@@ -11,6 +11,10 @@
    padding-right: 195px;
   }
 
+  @mixin atLarge {
+    padding-right: 250px;
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -38,11 +42,15 @@
     @mixin atSmall {
       font-size: 13px;
       padding-left: 27px;
+    }
 
+    @mixin atLarge {
+      font-size: 15px;
+      padding-left: 38px;
     }
 
     &:hover {
-      color: rgba(0, 0, 0, 0.728);
+      color: rgba(0, 0, 0, 0.7);
     }
 
   }
